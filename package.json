@@ -1,0 +1,38 @@
+{
+  "name": "instagram-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurchhapra/instagram-api.git"
+  },
+  "keywords": [
+    "instagram",
+    "follow",
+    "unfollow",
+    "tracker",
+    "node",
+    "express",
+    "instagram-api"
+  ],
+  "author": "Mayur Chhapra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurchhapra/instagram-api/issues"
+  },
+  "homepage": "https://github.com/mayurchhapra/instagram-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
